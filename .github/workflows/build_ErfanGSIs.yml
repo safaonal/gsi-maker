@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://netix.dl.sourceforge.net/project/redminote8es/Ginkgo/MIUI/MIUIPLUS_A11_Ginkgo_210320.By_YyLLHdz.zip
-  ROM_NAME: MIUI
+  ROM_URL: http://roms.minovo.ml/Firmware/2021/21.3.10/sasd65S45SDE98nf/minovo_lavender_21.3.10_10.0_6254e3e691.zip
+  ROM_NAME: MIUId
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: MIUI-PLUS11
+  ZIP_NAME: MI-NOVO
 jobs:
   build:
     runs-on: ubuntu-latest
